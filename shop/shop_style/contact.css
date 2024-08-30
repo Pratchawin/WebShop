@@ -1,0 +1,142 @@
+.ar-contact-to-cmp{
+    width: 1280px;
+    background-color: white;
+    margin-top: 10px;
+}
+.ar-contact-title{
+    padding: 20px;
+}
+.ar-form-contact-to-admin{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+.ontact-form-bx-ls{
+    margin-top:50px;
+}
+.contact-form-inp{
+    width: 95%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.ar-contact-bx-email,.ar-contact-bx-phone{
+    display: inline-block;
+    width: 49%;
+    margin-top: 20px;
+}
+.ar-contact-inp-email2{
+    width: 98%;
+    text-align: right;
+}
+.contact-form-inp-uname-and-lname{
+    display: inline-block;
+    width: 46%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact-form-bx-ls-txt{
+    margin-top: 20px;
+}
+.inp-message-bx{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn-send-message-data{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media only screen and (max-width:414px) {
+    .ar-contact-to-cmp{
+        width: 360px;
+        height: 628px;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .ar-contact-title{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    .ar-form-contact-to-admin{
+        padding-left: 0px;
+        padding-bottom: 20px;
+        width: 358px;
+    }
+    .contact-lbl{
+        font-size: 15px;
+    }
+    .ontact-form-bx-ls{
+        margin-top:50px;
+    }
+    .contact-form-inp{
+        width: 95%;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .ar-contact-bx-email,.ar-contact-bx-phone{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ar-contact-inp-email2{
+        text-align: right;
+    }
+    .ar-set-pd-form-contact{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-form-inp-uname-and-lname{
+        display: block;
+        width: 95%;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .contact-form-bx-ls-txt{
+        margin-top: 20px;
+    }
+    .inp-message-bx{
+        width: 305px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .btn-send-message-data{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: white;
+        border: 1px solid lightgray;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}

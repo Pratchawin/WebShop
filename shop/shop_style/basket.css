@@ -1,0 +1,228 @@
+.ar-shipping-cart-content{
+    display: grid;
+    justify-content: center;
+}
+.ar-shipping-cart-ls{
+    width: 1280px;
+    margin-top: 10px;
+}
+.tbl-show-pd-in-shipping-cart{
+    width: 100%;
+}
+.tr-shipping-ls{
+    border-bottom: 1px solid lightgray;
+}
+.shp-pd-no,.shp-pd-quantity,.shp-pd-price{
+    text-align: center;
+}
+.shp-pd-no{
+    width: 5%;
+}
+.shp-pd-name{
+    width: 20%;
+}
+.shp-pd-img,.shp-pd-quantity,.shp-pd-price{
+    width: 10%;
+}
+.shp-btn-del{
+    width: 10%;
+    text-align: right;
+    padding-right: 20px;
+}
+.bs-inp-quantity{
+    padding: 5px;
+    width: 20px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.shp-btn-buy-pd,.shp-btn-del-pd{
+    display: inline-block;
+}
+.ar-shipping-title{
+    padding: 20px;
+}
+.inp-bs-bx-none{
+    display: none;
+}
+.btn-bs-set-quantity{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.tbl-show-pd-in-shipping-cart{
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+.ar-tbl-shipping-pd-ls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tbl-shipping{
+    background-color: white;
+    width: 75%;
+}
+.ar-total-price{
+    min-height: 700px;
+    margin-left: 5px;
+    background-color: white;
+    width: 24%;
+}
+.th-shp-cart{
+    width: 5%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+.btn-buy-pd-in-bs-cart{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.shp-link-buy-pd{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.btn-del-pd{
+    padding-left: 8px;
+    text-decoration: none;
+    color: black;
+}
+.btn-del-pd:hover{
+    color: red;
+}
+.ar-shp-pd-qt-and-price{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tbl-showpd-total-left-cnt{
+    width: 100%;
+    padding-left: 20px;
+}
+.td-txt-title{
+    padding-top: 0px;
+}
+.shp-img{
+    width: 80px;
+}
+@media only screen and (max-width:414px) {
+    .shp-img{
+        width: 50px;
+    }
+    .ar-shipping-cart-content{
+        display: grid;
+        justify-content: center;
+    }
+    .ar-shipping-cart-ls{
+        width: 360px;
+        margin-top: 10px;
+    }
+    .tbl-show-pd-in-shipping-cart{
+        width: 100%;
+    }
+    .tr-shipping-ls{
+        border-bottom: 1px solid lightgray;
+        font-size: 13px;
+    }
+    .shp-pd-no,.shp-pd-quantity,.shp-pd-price{
+        text-align: center;
+    }
+    .shp-pd-img,.shp-pd-quantity,.shp-pd-price{
+        width: 10%;
+    }
+    .shp-btn-del{
+        width: 17%;
+        text-align: right;
+        padding-right: 2px;
+    }
+    .shp-btn-buy-pd,.shp-btn-del-pd{
+        display: inline-block;
+    }
+    .ar-shipping-title{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 3px;
+    }
+    .tbl-show-pd-in-shipping-cart{
+        margin-top: 10px;
+        padding-left: 20px;
+        border-collapse: collapse;
+    }
+    .ar-tbl-shipping-pd-ls{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tbl-shipping{
+        background-color: white;
+        width: 100%;
+    }
+    .ar-total-price{
+        min-height: 500px;
+        margin-left: 5px;
+        background-color: white;
+        border: none;
+        width: 100%;
+    }
+    .shipping-title,.shp-total-title{
+        font-size: 15px;
+    }
+    .th-shp-cart{
+        font-size: 13px;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 5px;
+    }
+    .btn-buy-pd-in-shipping-cart{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .shp-link-buy-pd{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .btn-del-pd{
+        padding-left: 8px;
+        text-decoration: none;
+        color: black;
+    }
+    .btn-del-pd:hover{
+        color: red;
+    }
+    .ar-shp-pd-qt-and-price{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tbl-showpd-total-left-cnt{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .td-txt-title{
+        padding-top: 5px;
+    }
+    .ar-btn-buy-all-pd-in-shp{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn-buy-all-pd{
+        margin-top: 30px;
+        width: 100%;
+        padding: 5px;
+        background-color: orangered;
+        border: none;
+    }
+    .link-buy-all-pd{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+}

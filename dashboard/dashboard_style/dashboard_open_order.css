@@ -1,0 +1,350 @@
+.ar-show-order-detail-other {
+    display: block;
+}
+
+.show-order-detail-other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ar-show-pd-or-dt {
+    padding: 10px;
+    width: 1000px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+.ar-pd-order-detail-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.ar-ds-open-order-detail {
+    padding: 5px;
+}
+
+.ds-opn-img-pd-dt {
+    display: flex;
+    flex-direction: row;
+}
+
+.ar-show-order-detail-status {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 955px;
+}
+
+.show-order-status {
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.ar-best-by-logo {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.ds-opn-pd-detail {
+    padding-left: 20px;
+}
+
+.ar-tbl-opn-user-dt {}
+
+.ar-show-pd-or-detail {
+    width: 360px;
+}
+
+.linke-dow-or-dt {
+    text-align: right;
+}
+
+.tbl-show-order-detail {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.a-link-dowload-excel-file {
+    color: white;
+    background-color: #0788D9;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 4px 5px 4px 5px;
+}
+
+.tr-th-bd-btt-line {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+td {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.ar-btn-exe-pd {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-confirm-order,
+.btn-cancel-order {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-confirm-order {
+    background-color: #0788D9;
+}
+
+.ar-show-pd-dt2 {}
+
+.orth-pd-img {
+    width: 200px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.ar-show-user-data-bx {}
+
+.ar-company-detail {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.dealer-title-tx {
+    padding-bottom: 5px;
+}
+
+.p-comp-dt {
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.td-pd-or-no {
+    text-align: center;
+}
+
+.td-pd-or-no,
+.td-pd-or-pd-name,
+.td-pd-or-quantity,
+.td-pd-or-dt-price,
+.td-pd-or-dt-total {
+    border-bottom: 1px solid lightgray;
+}
+
+.td-pd-or-quantity,
+.td-pd-or-price,
+.td-pd-or-total,
+.td-pd-or-price-tt,
+.td-pd-or-dt-price,
+.td-pd-or-dt-total {
+    text-align: right;
+}
+
+.td-pd-or-price-tt {
+    color: red;
+}
+.data-img-ls{
+    width: 300px;
+}
+
+@media only screen and (max-width:360px) {
+    .ar-show-order-detail-other {
+        display: block;
+    }
+    .ar-admin-dash-right-nav-top{
+        display: none;
+    }
+    .show-order-detail-other {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .data-img-ls{
+        width: 250px;
+    }
+    .res-data-img{
+        display: none;
+    }
+    .ar-show-pd-or-dt {
+        padding: 5px;
+        width: 360px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .ar-pd-order-detail-title {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .ar-ds-open-order-detail {
+        padding-left: 27px;
+    }
+
+    .ds-opn-img-pd-dt {
+        display: contents;
+        flex-direction: row;
+    }
+
+    .ar-show-order-detail-status {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 955px;
+    }
+
+    .show-order-status {
+        z-index: 1;
+        position: absolute;
+        top: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border: 1px solid lightgray;
+        background-color: lightgray;
+    }
+
+    .ar-best-by-logo {
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .ds-opn-pd-detail {
+        padding-left: 0px;
+    }
+
+    .ar-tbl-opn-user-dt {}
+
+    .ar-show-pd-or-detail {
+        width: 130px;
+    }
+
+    .linke-dow-or-dt {
+        text-align: right;
+    }
+    tr{
+        position: relative;
+    }
+    .tbl-show-order-detail {
+        width: 140%;
+        margin-top: 10px;
+    }
+
+    .a-link-dowload-excel-file {
+        color: white;
+        background-color: #0788D9;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-left: 5px;
+        padding: 4px 5px 4px 5px;
+    }
+
+    .tr-th-bd-btt-line {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid lightgray;
+        border-top: 1px solid lightgray;
+    }
+
+    td {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+    }
+
+    .ar-btn-exe-pd {
+        margin-top: 20px;
+        text-align: right;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .btn-confirm-order,
+    .btn-cancel-order {
+        background-color: rgb(255, 0, 0);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .btn-confirm-order {
+        background-color: #0788D9;
+    }
+
+    .ar-show-pd-dt2 {}
+
+    .orth-pd-img {
+        width: 200px;
+        border: 1px solid lightgray;
+        padding: 5px;
+    }
+
+    .ar-show-user-data-bx {}
+
+    .ar-company-detail {
+        padding-top: 10px;
+        border-top: 1px solid lightgray;
+        margin-top: 16px;
+        margin-left: 3px;
+    }
+
+    .dealer-title-tx {
+        padding-bottom: 5px;
+    }
+
+    .p-comp-dt {
+        padding-top: 4px;
+        padding-bottom: 2px;
+    }
+
+    .td-pd-or-no {
+        text-align: center;
+    }
+
+    .td-pd-or-no,
+    .td-pd-or-pd-name,
+    .td-pd-or-quantity,
+    .td-pd-or-dt-price,
+    .td-pd-or-dt-total {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .td-pd-or-quantity,
+    .td-pd-or-price,
+    .td-pd-or-total,
+    .td-pd-or-price-tt,
+    .td-pd-or-dt-price,
+    .td-pd-or-dt-total {
+        text-align: right;
+    }
+
+    .td-pd-or-price-tt {
+        color: red;
+    }
+
+}

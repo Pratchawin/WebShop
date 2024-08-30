@@ -1,0 +1,75 @@
+.ar-show-user-account {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tbl-user-show-member {
+    width: 50%;
+}
+.ar-td-member-no,
+.ar-td-member-name,
+.ar-td-member-email,
+.ar-td-member-phone,
+.ar-td-member-date{
+    padding: 10px;
+    text-align: center;
+}
+.ar-th-pd-on-title-member,
+.ar-th-pd-uname-title-member,
+.ar-th-pd-email-title-member,
+.ar-th-pd-phone-title-member,
+.ar-th-pd-date-title-member{
+    padding: 5px;
+    background-color: #0788D9;
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.ds-btn-his-edit-pd {
+    background-color: #0788D9;
+}
+.ar-td-member-name,.ar-td-member-email,.ar-td-member-date{
+    text-align: left;
+}
+.ds-btn-his-del-pd {
+    background-color: red;
+}
+
+.ds-btn-his-edit-pd,
+.ds-btn-his-del-pd {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.set-tbl-border{
+    border-bottom: 1px solid lightgray;
+}
+.td-res-acc{
+    display: none;
+}
+.btn-dow-his-file{
+    color: white;
+    background-color: #0788D9;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 5px 4px 5px;
+    margin-left: 10px;
+}
+@media only screen and (max-width:1366px) {
+    .tbl-user-show-member {
+        width: 85%;
+    }
+}
+@media only screen and (max-width:360px) {
+    .ar-admin-dash-right-ctn {
+        width: 100%;
+        margin-left: 2px;
+    }
+    .tbl-user-show-member {
+        width: 100%;
+    }
+    .btn-dow-his-file{
+        display: none;
+    }
+}

@@ -1,0 +1,357 @@
+.ar-form-inp-buy-pd{
+    background-color: rgb(247, 247, 247);
+    display: grid;   
+    justify-content: center;
+}
+.ar-form-od-pd-detail{
+    width: 1280px;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ar-frm-inp-or-detail{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ar-bx-form-inp{
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+.ar-bx-form-inp-title{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.form-ord-set-inline{
+    display: inline-block;
+}
+.ar-bx-user-inp-name,
+.ar-user-inp-address,
+.ar-user-inp-email{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.ar-show-bank-account{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.set-font-size{
+    color: green;
+}
+.show-status{
+    position: absolute;
+    margin-top: -100px;
+    border: 1px solid lightgray;
+    background-color: rgb(240, 240, 240);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.ar-show-buy-success,.ar-show-buy-txt{
+    display: inline-block;
+}
+.ar-show-buy-txt{
+    padding-left:10px;
+}
+.ar-show-pd-order-success{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.alert-status{
+    color: red;
+    font-size: 15px;
+}
+.bx-inp-name{
+    margin-top: 5px;
+}
+.frm-inp-dis-none{
+    display: none;
+}
+.or-inp-fname,.or-inp-lname,.inp-buy-pd,.inp-buy-pd{
+    width: 24%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.inp-buy-pd,.inp-buy-pd,.ar-inp-bx-address{
+    margin-top: 10px;
+    width: 93%;
+}
+.or-inp-name{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.slc-op{
+    padding: 5px;
+}
+.ar-user-inp-address,.or-inp-lname,.ar-user-inp-email{
+    margin-left: 15px;
+}
+.ar-or-pd-img-detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.inp-user-address{
+    width: 55%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.ar-or-form-pd-img{
+    width: 200px;
+}
+.ar-or-pd-desc{
+    width: 800px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.ar-or-inp-tybtn-conf-cc{
+    margin-top: 10px;
+    text-align: right;
+}
+.ar-show-pddetail-response1,.ar-show-pddetail-response2{
+    display: none;
+}
+.ar-or-pd-detial{
+    padding-top: 10px;
+}
+.or-btn-conf,.or-btn-cc{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.ar-bx-shipping-pd{
+    display: flex;
+    flex-direction: row;
+}
+
+.fm-st-ls-4{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ar-bx-payment-pd{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ar-nt-dt-ls{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ar-tbl-pd-detail{
+    width: 100%;
+}
+.tbl-form-th-title,.tbl-form-td-pd-detail{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.td-pd-image{
+    text-align: center;
+}
+.td-pd-total,.set-align,.td-pd-quantity{
+    text-align: center;
+}
+.bx-inp-email1,.bx-inp-phone2{
+    margin-right: 6px;
+    width: 26%;
+    display: inline-block;
+}
+.td-pd-quantity{
+    width: 10%;
+}
+.td-pd-name,
+.td-pd-price,
+.td-pd-total{
+    width: 22%;
+}
+.tbl-form-td-pd-shipment{
+    padding-top: 0px;
+}
+.ar-form-upload-receipt{
+    padding-left: 20px;
+}
+.ar-form-set-txt-padding{
+    
+}
+.tbl-form-td-pd-shipment-padding{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 40px;
+}
+.td-pd-price{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 70px;
+}
+.tbl-form-td-pd-shipment-p,.tbl-form-td-pd-shipment{
+    padding-left: 67px;
+}
+.tt-set-padding{
+    padding-left: 20px;
+}
+.set-mr-top{
+    margin-top: 5px;
+}
+.ar-form-for-resp{
+    display: none;
+}
+/* form response */
+@media only screen and (max-width:414px){
+    body{
+        font-size: 15px;
+        background-color: rgb(247, 247, 247);
+    }
+    .ar-form-inp-buy-pd{
+        background-color: rgb(247, 247, 247);
+        display: grid;   
+        justify-content: center;
+    }
+    .ar-form-od-pd-detail{
+        width: 360px;
+        background-color: rgb(231, 231, 231);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .tt-set-padding {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .ar-frm-inp-or-detail{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ar-or-pd-detial{
+        width: 342px;
+    }
+    .bx-inp-email1, .bx-inp-phone2 {
+        margin-right: 6px;
+        width: 96%;
+        display: inline-block;
+    }
+    .ar-bx-form-inp{
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border-radius: 0px;
+        margin-top: 8px;
+        border: none;
+        border-bottom: 1px solid lightgray;
+    }
+    .ar-bx-user-inp-name,
+    .ar-user-inp-address,
+    .ar-user-inp-phone-number,
+    .ar-user-inp-email{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .bx-inp-name{
+        margin-top: 0px;
+    }
+    .or-inp-fname,.or-inp-lname{
+        width: 89%;
+        padding: 5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+    .inp-user-address {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    }
+    .or-inp-name{
+        width: 98%;
+        padding: 5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin-left: 0px;
+    }
+    .ar-or-pd-img-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .ar-or-pd-img{
+        text-align: center;
+    }
+    .ar-or-form-pd-img{
+        width: 200px;
+    }
+    .ar-or-pd-desc{
+        width: 334px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .ar-or-inp-tybtn-conf-cc{
+        margin-top: 10px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .or-btn-conf,.or-btn-cc{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(255, 115, 0);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .ar-bx-shipping-pd{
+        display: none;
+    }
+    .fm-st-ls-4{
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    .ar-bx-payment-pd{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+    .ar-nt-dt-ls{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+    .ar-show-pddetail-response1,.ar-show-pddetail-response2{
+        display: inline-block;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .ar-show-pddetail-response2{
+        padding-left: 15px;
+    }
+    .ar-form-for-resp{
+        display: block;
+    }
+    .ar-show-order-detail{
+        display: flex;
+        flex-direction: row;
+    }
+    .tbl-fm-show-order-dt{
+        width: 100%;
+    }
+    .td-fm-show-or-dt{
+        width: 28%;
+    }
+}

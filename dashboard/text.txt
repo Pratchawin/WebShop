@@ -1,0 +1,73 @@
+$main_cate=$_POST["main_category"];
+            $conn=connect_bestDB();
+            $sql_insert_category_ind="insert into tbl_category(category_name) values($main_cate)";
+            $result=mysqli_query($conn,$sql_insert_category_ind);
+            if($result==true){
+                echo "เพิ่มประเภทสินค้าเรียบร้อย";
+            }else{
+                echo "ไม่สามารถเพิ่มประเภทสินค้าได้";
+                echo mysqli_error($conn);
+            }    
+
+
+echo "<meta http-equiv='refresh' content='0;url=http://localhost/bestbuy/new_dashboard/dashboard_add_pd.php'>";
+
+pd_id
+pd_category
+
+ชื่อสินค้า pd_name
+รหัส pd_code
+ยี่ห้อ pd_brand
+รุ่น pd_model
+ไฟล์เอกสาร pdf_file_name
+รายละเอียดย่อ pd_detail
+ราคาสินค้า pd_price
+จำนวนสินค้า pd_quantity
+
+รายละเอียดเพิ่มเติม 
+ประเภทสินค้าที่เหมือกัน
+                <div class="ar-ind2-navleft-ctn">
+                    <a href="" class="ind2-nav-left-link">เครื่องชั่งสองเเขน</a>
+                </div>
+                <div class="ar-ind2-navleft-ctn">
+                    <a href="" class="ind2-nav-left-link">เครื่องชั่งแมคคานิกส์</a>
+                </div>
+function formatMoney($number, $fractional=false) {
+    if ($fractional) {
+        $number = sprintf('%.2f', $number);
+    }
+    while (true) {
+        $replaced = preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2', $number);
+        if ($replaced != $number) {
+            $number = $replaced;
+        } else {
+            break;
+        }
+    }
+    return $number;
+}
+
+formatMoney($constringtoFloat, true)
+
+
+
+order_id,order_code,date_order,pd_id,amount,pd_status,ctm_id,ctm_name,ctm_email,ctm_phone,ctm_address,statement_file
+
+
+
+pd_id
+category_name	
+category_list_name	
+pd_name	
+pd_code	
+pd_model	
+pd_brand	
+pd_detail	
+pd_price	
+pd_quantity	
+pd_status	
+pd_more_dt_th	
+pd_more_dt_eng	
+shipment_expenses	
+date_add	
+discount	

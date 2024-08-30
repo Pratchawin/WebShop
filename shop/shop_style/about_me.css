@@ -1,0 +1,381 @@
+.ar-web-ecom-content {
+    background-color: white;
+}
+
+.ar-about-me-ctn {
+    width: 1280px;
+    background-color: rgb(255, 255, 255);
+}
+
+.abt-cmp-navtop-ctn {
+    width: 100%;
+    height: 320px;
+}
+
+.ar-abt-show-ctn-bx-ls,
+.ar-abt-show-ctn-bx-ls3,
+.ar-abt-show-ctn-bx-ls4 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ar-abt-show-ctn-bx-ls3,
+.ar-abt-show-ctn-bx-ls4 {
+    margin-top: 80px;
+}
+
+.ar-abt-show-ctn-bx-ls2 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ar-abt-image-ls2 {
+    width: 47%;
+}
+
+.about-set-cmp-img2 {
+    width: 600px;
+}
+
+.ar-abt-txt {
+    padding-left: 50px;
+}
+
+.ar-abt-txt,
+.ar-abt-txt2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 65%;
+}
+
+.ar-abt-txt2,
+.ar-abt-txt3 {
+    width: 49%;
+}
+
+.ar-abt-txt3 {
+    padding-left: 50px;
+}
+
+.ar-abt-title {
+    padding-bottom: 20px;
+}
+
+.ar-abt-desc {
+    width: 500px;
+}
+
+.business-desc-img {
+    width: 49%;
+    display: inline-block;
+}
+
+.ar-store-top-image-ctn {
+    width: 1280px;
+}
+
+.about-set-cmp-img {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 42px;
+}
+
+.about-set-location-img {
+    width: 100%;
+}
+
+.ar-abt-image {
+    width: 395px;
+}
+
+.ar-abt-image2 {
+    width: 250px;
+}
+
+.ar-abt-image4 {
+    width: 600px;
+}
+
+.abt-tbl-show-ctm-ls {
+    width: 1280px;
+}
+
+.abr-tbl-ctm-txt {
+    width: 100%;
+}
+
+.ar-abt-bx-link-manue-ls {
+    border-radius: 8px;
+    background-color: rgb(53, 141, 255);
+    width: 238px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ar-abt-manue-ls-detail {
+    margin-top: 20px;
+}
+
+.ar-abt-manue-ls-icon,
+.ar-abt-manue-ls-detail {
+    color: white;
+}
+
+.ar-abt-bx-link-manue-ls:hover {
+    cursor: pointer;
+    background-color: rgb(95, 170, 255);
+}
+
+.ar-show-success-image-list {
+    width: 35%;
+}
+
+.cmp-success-img {
+    width: 100%;
+}
+
+.abt-link-to-cnt {
+    text-decoration: none;
+    color: white;
+}
+
+.ar-abt-show-oth-ctm-his {
+    display: none;
+}
+
+.ar-success-icon-and-txt {
+    display: flex;
+    margin-bottom: 42px;
+}
+
+.abt-set-inline-txt {
+    padding-left: 35px;
+    padding-top: 7px;
+}
+
+/*about response*/
+@media only screen and (max-width:414px) {
+    .abt-set-inline-txt {
+        padding-left:15px;
+        padding-top: 7px;
+    }
+    .ar-success-icon-and-txt {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .set-font-res{
+        font-size: 15px;
+    }
+    .ar-abt-desc-res{
+        margin-top: 20px;
+    }
+    body {
+        background-color: white;
+    }
+
+    .ar-about-me-ctn {
+        width: 360px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .abt-cmp-navtop-ctn {
+        width: 100%;
+        height: auto;
+    }
+
+    .ar-abt-show-ctn-bx-ls,
+    .ar-abt-show-ctn-bx-ls3 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ar-abt-show-ctn-bx-ls4 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .ar-abt-show-ctn-bx-ls3,
+    .ar-abt-show-ctn-bx-ls4 {
+        margin-top: 5px;
+    }
+
+    .ar-abt-show-ctn-bx-ls2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .ar-abt-image-ls2 {
+        width: 100%;
+    }
+
+    .about-set-cmp-img2 {
+        width: 100%;
+    }
+
+    .ar-abt-txt {
+        padding-left: 50px;
+    }
+
+    .ar-abt-txt,
+    .ar-abt-txt2 {
+        padding-top: 5px;
+        padding-left: 5px;
+        width: 100%;
+    }
+
+    .ar-abt-txt2,
+    .ar-abt-txt3 {
+        width: 99%;
+    }
+
+    .ar-abt-txt3 {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .ar-abt-title {
+        padding-bottom: 2px;
+    }
+
+    .ar-abt-desc {
+        font-size: 15px;
+        width: 336px;
+    }
+    .tbl-about-me-ctm-ls{
+        padding-top: 0px; 
+        padding-bottom: 3px;
+        font-size: 15px;
+    }
+    .tbl-about-me-ctm-ls1{
+        font-size: 15px;
+    }
+    .business-desc-img1 {
+        width: 100%;
+        display: block;
+    }
+
+    .business-desc-img {
+        display: none;
+    }
+
+    .ar-store-top-image-ctn {
+        width: 360px;
+    }
+
+    .about-set-cmp-img {
+        display: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 42px;
+    }
+
+    .about-set-location-img {
+        padding-top: 15px;
+        width: 100%;
+    }
+
+    .ar-abt-image {
+        width: 395px;
+    }
+
+    .ar-abt-image2 {
+        width: 250px;
+    }
+
+    .ar-abt-image4 {
+        width: 360px;
+    }
+
+    .abt-tbl-show-ctm-ls {
+        width: 360px;
+        height: 220px;
+        overflow: hidden;
+    }
+
+    .ar-abt-show-oth-ctm-his {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid lightgray;
+    }
+
+    .abr-tbl-ctm-txt {
+        width: 100%;
+    }
+
+    .abt-set-font {
+        font-size: 15px;
+    }
+
+    .ar-abt-bx-link-manue-ls {
+        border-radius: 8px;
+        background-color: rgb(53, 141, 255);
+        width: 169px;
+        border: 1px solid lightgray;
+        display: inline-block;
+        padding: 0px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .ar-abt-manue-ls-detail {
+        margin-top: 5px;
+    }
+
+    .ar-abt-manue-ls-icon,
+    .ar-abt-manue-ls-detail {
+        padding-top: 3px;
+        color: white;
+    }
+
+    .ar-abt-bx-link-manue-ls:hover {
+        cursor: pointer;
+        background-color: rgb(95, 170, 255);
+    }
+
+    .ar-show-success-image-list {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cmp-success-img {
+        width: 100%;
+    }
+
+    .abt-link-to-cnt {
+        text-decoration: none;
+        color: white;
+    }
+
+    .abt-h2-res-txt {
+        font-size: 18px;
+    }
+}

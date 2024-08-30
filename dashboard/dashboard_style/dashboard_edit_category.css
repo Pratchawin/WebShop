@@ -1,0 +1,67 @@
+.th-edit-ctt-title{
+    width: 10%;
+    background-color: #0788d9;
+    padding: 5px;
+    color: white;
+}
+.stt-show-data2{
+    margin-top: 10px;
+}
+.th-edit-ctt-title-edit,.th-edit-ctt-title-del{
+    width: 2%;
+    background-color: #0788d9;
+    color: white;
+    padding: 5px;
+}
+.td-edit-ctt-name{
+    text-align: left;
+}
+.td-edit-ctt-btn-edit{
+    text-align: center;
+    padding-top: 0px;
+}
+.td-edit-ctt-btn-del{
+    text-align: center;
+}
+.td-edit-ctt-name{
+    border-bottom: 1px solid lightgray;
+}
+.inp-new-ctt-name{
+    padding: 5px;
+    font-size: 15px;
+    width: 97%;
+}
+.scl-ctt-list{
+    padding: 3px;
+}
+.ar-form-scl-ctt-list{
+    margin-top: 10px;
+}
+.btn-save-new-ctt-name{
+    margin-left: 10px;
+    padding: 2px;
+}
+.btn-edit-ctt,.btn-del-ctt{
+    margin-top: 7px;
+    padding: 5px;
+    background-color: #0788d9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+.btn-del-ctt{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+.tr-inp-form-edit-ctt,.tr-inp-form-edit-ctt-2{
+    display: none;
+}
+
+@media only screen and (max-width:360px){
+    .ar-form-inp-set-data {
+        width: 356px;
+    }
+}

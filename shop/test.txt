@@ -1,0 +1,31 @@
+<a href='formbuypd.php?pd_id=".$row[0]."&pd_quantity=1' class='shp-link-buy-pd btn-buy-pd-in-shipping-cart'>สั่งซื้อ</a>
+echo "<meta http-equiv='refresh' content='0;url=http://localhost/bestbuy/shop/pdreview.php'>";
+
+
+order_code,pd_id,amount,pd_status,ctm_id,ctm_name,ctm_email,ctm_phone,ctm_address,statement_file,payment_status,zip_code,tambon,amphoe,province,country	
+
+order_code,pd_id,amount,pd_status,ctm_id,ctm_name,ctm_email,ctm_phone,ctm_address,statement_file,payment_status,zip_code,tambon,amphoe,province,country,pd_price	
+
+
+total_price" 
+shipment_pay"
+
+
+<?php
+                    $category_id_ind = @$_GET["category_id"];
+                    getNavLeftCategoryList($category_id_ind);
+                ?>
+
+
+
+$conn=connect_bestDB();
+$sql_ckk_admin="";
+
+$status = "<p class='ad-status'>ไม่สามารถเข้าสู่ระบบได้</p>";
+echo $status;
+
+$_SESSION["status"] = base64_encode($ad_login[0]);
+$_SESSION["admin_id"] = base64_encode($admin_id);
+echo "<meta http-equiv='refresh' content='0;url=http://localhost/bestbuy/dashboard/dashboard.php'>";
+
+$sql_admin02 = "select status,admin_id from tbl_admin where admin_id='$admin_id' and ad_pwd='$ad_pass'";

@@ -1,0 +1,166 @@
+.ds-btn-his-edit-pd,
+.ds-btn-his-del-pd {
+    text-decoration: none;
+}
+
+.ds-btn-his-edit-pd {
+    border: none;
+    background-color: #0788D9;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.ds-btn-his-del-pd {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+.btn-dow-his-file{
+    color: white;
+    background-color: #0788D9;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 4px 5px 4px 5px;
+}
+.ar-tbl-ds-his-or-his {
+    width: 100%;
+}
+
+.ar-ds-td-orhis-pm-status,
+.ar-ds-th-orhis-pd-name,
+.ar-ds-th-orhis-phone,
+.ar-ds-th-orhis-uname,
+.ar-ds-th-orhis-no,
+.ar-ds-td-orhis,
+.ar-ds-th-orhis,
+.ar-ds-td-orhis-price,
+.ar-ds-th-orhis-name,
+.ar-ds-th-orhis-price,
+.ar-ds-th-orhis-quantity,
+.ar-ds-th-orhis-no1,
+.ar-ds-th-orhis-pm-status,
+.ar-ds-td-orhis-quantity {
+    border-bottom: 1px solid lightgray;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.ar-ds-td-orhis-price{
+    text-align: right;
+}
+
+.ar-ds-th-orhis-uname,.ar-ds-th-orhis-phone{
+    text-align: left;
+}
+.show-pdname{
+    height: 50px;
+    overflow: hidden;
+}
+.show-pdname:hover{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+.ar-ds-th-orhis-no,
+.ar-ds-td-orhis-quantity  {
+    text-align: center;
+}
+.ar-ds-th2-orhis-no,
+.ar-ds-th2-orhis-name,
+.ar-ds-th2-orhis,
+.ar-ds-th2-orhis-pd-name,
+.ar-ds-th2-orhis-price,
+.ar-ds-th2-orhis-quantity,
+.ar-ds-th2-orhis-pm-shipment,
+.ar-ds-th2-orhis-phone,
+.ar-ds-th2-orhis-ctm-address,
+.ar-ds-th2-orhis-order-code,
+.ar-ds-th2-orhis-pm-status{
+    background-color: #0788D9;
+    color: white;
+    padding: 5px;
+}
+.ar-ds-th-orhis-pm-status,
+.ar-ds-td-orhis-pm-status {
+    text-align: center;
+}
+.ar-ds-th-orhis-name,
+.ar-ds-th-orhis-quantity,
+.ar-ds-th-orhis-pm-status,
+.ar-ds-th-orhis-price{
+    width: 10%;
+}
+.ar-ds-th-orhis-no,.ar-ds-th2-orhis-pm-shipment,.ar-ds-th2-orhis-quantity {
+    width: 5%;
+}
+.ar-ds-th2-orhis-pm-status,.ar-ds-th2-orhis-phone,.ar-ds-th2-orhis-price{
+    width: 7%;
+}
+.ar-ds-th2-orhis-no,.ar-ds-th-orhis-no1{
+    width: 2%;
+}
+.ar-ds-th-orhis-no1{
+    text-align: center;
+}
+.ds-his-pm-status-p{
+    background-color: #4dff91;
+    border-radius: 5px;
+}
+.ar-ds-th2-orhis-name{
+    width: 13%;
+}
+.ar-ds-th2-orhis-ctm-address{
+    width: 13%;
+}
+.ar-his-res-data{
+    display: none;
+}
+@media only screen and (max-width:360px) {
+    .ar-admin-dash-right-ctn {
+        width: 353px;
+        margin-left: 2px;
+    }
+    .inp-search-pd-name {
+        width: 95px;
+        border-bottom: 1px solid lightgray;
+    }
+    .btn-dow-his-file{
+        display: none;
+    }
+    .ar-tbl-ds-his-or-his{
+        display: none;
+    }
+    .ar-ds-bx-show-title-and-search{
+        width: 360px;
+    }
+    .td-hid-title-pdd{
+        width: 25%;
+    }
+    .td-his-set-pdd{
+        padding-left: 50px;
+    }
+    .ar-his-res-data{
+        width: 100%;
+        display: block;
+    }
+    .td-his-end-border{
+        border-bottom: 1px solid lightgray;
+    }
+    .td-his-start-border{
+        border-top: 1px solid lightgray;
+    }
+    .tbl-res-his{
+        width: 100%;
+    }
+    .ar-pd-in-stoc-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}

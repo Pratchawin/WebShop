@@ -1,0 +1,102 @@
+.ar-form-stt-account-cpn-data{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-top: 20px;
+
+}
+.ar-form-stt-account-cpn-data2{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ar-set-cpm-detail{
+    text-align: right;
+}
+.ar-btn-set-ship{
+    text-align: left;
+}
+.ar-form-inp-set-data{
+    width: 800px;
+}
+.ar-form-inp-set-data2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ar-form-inp-list{
+    width: 800px;
+}
+.set-inp-bank{
+    width: 250px;
+    padding: 6px;
+    border: 1px solid lightgray;
+    background-color: white;    
+    border-radius: 5px;
+}
+.stt-show-data{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.inp-submit-setting{
+    padding: 4px;
+    background-color: #0788D9;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+.ar-bx-bank-otp-account-1{
+    padding-bottom: 20px;
+}
+.ar-bx-bank-otp-account-2{
+    margin-top: 20px;
+}
+.sh-inp-pd-dt{
+    width: 250px;
+    padding: 4px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.show-stt-cpn-data{
+    width: 280px;
+}
+.ar-tr-set-title{
+    padding-top: 10px;
+}
+.ar-set-bx-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.set-bx-ctn-etl-ctt{
+    width: 800px;
+}
+@media only screen and (max-width:360px) {
+    .ar-admin-dash-right-ctn{
+        width: 360px;
+        margin-left: 2px
+    }
+    .ar-form-inp-set-data2{
+        width: 360px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ar-form-inp-set-data{
+        width: 358px;
+    }
+    .set-inp-bank {
+        width: 185px;
+        padding: 4px;
+        border: 1px solid lightgray;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .stt-show-data {
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+}

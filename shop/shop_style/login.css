@@ -1,0 +1,151 @@
+
+.ar-form-login-title{
+    margin-top: 50px;
+}
+.ar-show-form-login{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    width: 1280px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.ar-form-login-ctn{
+    margin-left: 40px;
+}
+.register-form-pd,.login-form-pd{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ar-cmp-detail-and-cmp-form-login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.ar-cmp-detail,.ar-cmp-login{
+    width: 40%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.ar-cmp-login,.ar-cmp-detail{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.ar-cpm-detail-txt{
+    margin-top: 50px;
+}
+.login-contact-icon{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.ar-inp-login-bx-ls{
+    margin-top: 10px;
+}
+.ar-inp-login{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 93%;
+    border: 1px solid lightgray;
+}
+.btn-login-form{
+    width: 96%;
+    padding: 10px;
+    background-color: rgb(7 136 217);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-register{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.cmp-detail-p-txt{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.text{
+    margin-top: 10px;
+}
+.log-in-cnt{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:414px) {
+    .ar-tbl-show-cmp-dt{
+        display: none;
+    }
+    .ar-form-login-title{
+        margin-top: 10px;
+    }
+    .ar-show-form-login{
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        padding: 0px;
+        width: 360px;
+        height: 620px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+    .ar-form-login-ctn{
+        margin-left: 5px;
+    }
+    .ar-cmp-detail-and-cmp-form-login{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        flex-wrap: nowrap;
+    }
+    .ar-cmp-detail,.ar-cmp-login{
+        width: 100%;
+        background-color: white;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    .ar-cmp-login,.ar-cmp-detail{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .ar-cpm-detail-txt{
+        margin-top: 50px;
+    }
+    .ar-inp-login-bx-ls{
+        margin-top: 10px;
+    }
+    .ar-inp-login{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        width: 92%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    }
+    .btn-login-form{
+        width: 99%;
+    padding: 10px;
+    background-color: rgb(7 136 217);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+    .btn-register{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .cmp-detail-p-txt{
+        padding-top: 3px;
+        padding-right: 10px;
+    }
+    .text{
+        margin-top: 10px;
+        text-align: -webkit-match-parent;
+    }
+    .log-in-cnt{
+        padding-top: 20px;
+    }
+}
